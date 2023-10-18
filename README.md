@@ -1,99 +1,84 @@
-# Ultimate Front-end Template
+Natürlich, hier ist die Übersetzung ins Deutsche im Markdown-Format:
 
-![preview](https://cdn.discordapp.com/attachments/797485737272541250/952208625806495815/image_5.png)
+markdownCopy code
 
-> Most elements are taken from [my website](https://cretu.dev).
+`# Ultimatives Frontend-Template  ![Vorschau](https://cdn.discordapp.com/attachments/797485737272541250/952208625806495815/image_5.png)  > Die meisten Elemente stammen von [meiner Webseite](https://cretu.dev).  [![Mit Vercel bereitstellen](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcristicretu%2Fts-next-tailwind-template)  ## Inhaltsstoffe ✨:  - NextJS 🚀 - TailwindCSS 🦄 - Typescript 🦺 - Unterstützung für den Dunkelmodus 🌓 - ESLint + Prettier Konfiguration 📂 - Husky 🐶 - Selbst gehostete Inter-Schriftart ␊  Im Ordner _components_ verwende für jede deiner Seiten den Container, da er einen wiederverwendbaren Ausgangspunkt für jede Seite bietet.  ```jsx <Container>...SeitenElemente</Container>`
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcristicretu%2Fts-next-tailwind-template)
+Erste Schritte
+--------------
 
-## Ingredients ✨:
+1.  Mit 'Als Vorlage verwenden' im Repository ![Vorschau](https://cdn.discordapp.com/attachments/797485737272541250/952208604386189332/Group_11.png)
+    
+2.  Das Projekt klonen
+    
 
-- NextJS 🚀
-- TailwindCSS 🦄
-- Typescript 🦺
-- Dark Mode Support 🌓
-- ESLint + Prettier Config 📂
-- Husky 🐶
-- Self-Hosted Inter Font ␊
+bashCopy code
 
-Under the _components_ folder, use Container for each of your pages - as it provides a reusable starting point for every page.
+`# http git clone https://github.com/cristicretu/ts-next-tailwind-template.git`
 
-```jsx
-<Container>...pageElements</Container>
-```
+bashCopy code
 
-## Getting started
+`# ssh git clone git@github.com:cristicretu/ts-next-tailwind-template.git`
 
-1. With 'use as template' repository
-   ![preview](https://cdn.discordapp.com/attachments/797485737272541250/952208604386189332/Group_11.png)
+3.  Mit `create-next-app`
 
-2. Clone the project
+luaCopy code
 
-```bash
-# http
-git clone https://github.com/cristicretu/ts-next-tailwind-template.git
-```
+`npx create-next-app -e https://github.com/cristicretu/ts-next-tailwind-template Projektname`
 
-```bash
-# ssh
-git clone git@github.com:cristicretu/ts-next-tailwind-template.git
-```
+Installiere die erforderlichen Pakete und starte die Vorlage
 
-3. With `create-next-app`
+bashCopy code
 
-```bash
-npx create-next-app -e https://github.com/cristicretu/ts-next-tailwind-template project-name
-```
+`cd Projektname yarn install`
 
-Install the required packages and run the template
+Inbegriffen
+-----------
 
-```bash
-cd project-name
-yarn install
-```
+### Benutzerdefinierte classNames-Funktion
 
-## Included
+> Unter `/lib/classNames`
 
-### Custom classNames function
-> Under `/lib/classNames`
+### Pakete
 
-### Packages
+1.  Next-Themes: Eine Abstraktion für Themes in deiner Next.js-App.
+2.  react-use: react-hooks
 
-1. Next-themes: An abstraction for themes in your Next.js app.
-2. react-use: react-hooks
+### Benutzerdefinierte globals.css
 
-### Custom globals.css
+1.  Benutzerdefinierte Unterstreichung
+2.  Vercel-Navigationsleiste
+3.  Behebt Firefox-, Edge- und IE-Bugs bei Überläufen
 
-1. custom underline
-2. vercel navbar
-3. removes firefox, edge and ie. bugs with overflows
+### Absolute Importe
 
-### Absolute Imports
+javascriptCopy code
 
-```tsx
-import TextField from '../../../components/TextField.tsx'
-```
+`import TextField from '../../../components/TextField.tsx'`
 
-changes to
+ändert sich zu
 
-```tsx
-import TextField from 'components/TextField.tsx'
-```
+javascriptCopy code
 
-### SEO optimization found in `Container.tsx`
+`import TextField from 'components/TextField.tsx'`
 
-### Folder structuring & organization
+### SEO-Optimierung in `Container.tsx`
 
-> Under `/components/` & `/public/`
+### Ordnerstruktur & Organisation
 
-### Self Hosted Inter Font
+> Unter `/components/` & `/public/`
 
-> Under `/public/fonts/`
+### Selbst gehostete Inter-Schriftart
 
-### 404 Page
+> Unter `/public/fonts/`
 
-### Favicons and more configs
+### 404-Seite
 
-> Under `/public/static/favicons/`
+### Favicons und weitere Konfigurationen
 
-![preview](https://cdn.discordapp.com/attachments/797485737272541250/952211815046197278/Frame_7.png)
+> Unter `/public/static/favicons/`
+
+![Vorschau](https://cdn.discordapp.com/attachments/797485737272541250/952211815046197278/Frame_7.png)
+
+
+
