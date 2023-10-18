@@ -1,5 +1,5 @@
 
-`# Ultimatives Frontend-Template  ![Vorschau](https://cdn.discordapp.com/attachments/797485737272541250/952208625806495815/image_5.png)  > Die meisten Elemente stammen von [meiner Webseite](https://cretu.dev).  [![Mit Vercel bereitstellen](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcristicretu%2Fts-next-tailwind-template)  ## Inhaltsstoffe ✨:  - NextJS 🚀 - TailwindCSS 🦄 - Typescript 🦺 - Unterstützung für den Dunkelmodus 🌓 - ESLint + Prettier Konfiguration 📂 - Husky 🐶 - Selbst gehostete Inter-Schriftart ␊  Im Ordner _components_ verwende für jede deiner Seiten den Container, da er einen wiederverwendbaren Ausgangspunkt für jede Seite bietet.  ```jsx <Container>...SeitenElemente</Container>`
+`# Ultimatives Frontend-Template  ![Vorschau](https://cdn.discordapp.com/attachments/797485737272541250/952208625806495815/image_5.png)  > Die meisten Elemente stammen von [meiner Webseite](https://cretu.dev).  [![Mit Vercel bereitstellen](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=Einfachalf/TemplateCSS)  ## Inhaltsstoffe ✨:  - NextJS 🚀 - TailwindCSS 🦄 - Typescript 🦺 - Unterstützung für den Dunkelmodus 🌓 - ESLint + Prettier Konfiguration 📂 - Husky 🐶 - Selbst gehostete Inter-Schriftart ␊  Im Ordner _components_ verwende für jede deiner Seiten den Container, da er einen wiederverwendbaren Ausgangspunkt für jede Seite bietet.  ```jsx <Container>...SeitenElemente</Container>`
 
 Erste Schritte
 --------------
@@ -11,17 +11,17 @@ Erste Schritte
 
 bashCopy code
 
-`# http git clone https://github.com/cristicretu/ts-next-tailwind-template.git`
+`# http git clone https://github.com/Einfachalf/TemplateCSS.git`
 
 bashCopy code
 
-`# ssh git clone git@github.com:cristicretu/ts-next-tailwind-template.git`
+`# ssh git clone git@github.com:Einfachalf/TemplateCSS.git`
 
 3.  Mit `create-next-app`
 
 luaCopy code
 
-`npx create-next-app -e https://github.com/cristicretu/ts-next-tailwind-template Projektname`
+`npx create-next-app -e https://github.com/Einfachalf/TemplateCSS Projektname`
 
 Installiere die erforderlichen Pakete und starte die Vorlage
 
